@@ -1,6 +1,7 @@
 # Astro Starter Kit: Basics
 ## QUESO
 ### AMO A MAMO
+##Si 
 ```sh
 npm create astro@latest -- --template basics
 ```
