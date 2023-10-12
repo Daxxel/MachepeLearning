@@ -2,6 +2,7 @@
 ## QUESO
 ### AMO A MAMO
 ##Si 
+##No
 ```sh
 npm create astro@latest -- --template basics
 ```
