@@ -3,13 +3,14 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<div class="h-screen bg-gradient-to-b from-black via-gray-900 to-neutral-900">
-		<div class="md:container text-center">
-			<h1>ajiji</h1>
+	<div class="h-screen bg-gradient-to-b from-black via-gray-900 to-neutral-900 grid grid-cols-3 grid-rows-3 content-stretch place-items-center">
+		<div class="title-container col-start-2 row-start-2" >
+			<h1 class="font-extrabold text-5xl">Machine Learning</h1>
+			<span class="float-right mt-2">Inteligencia Artificial</span>
 		</div>
 	</div>
 	<div class="bg-neutral-900">
-		<div class="hero min-h-screen">
+		<div class="hero h-screen">
 			<div class="hero-content text-center">
 				<div class="max-w-md">
 					<h1 class="text-5xl font-bold">¿Qué es IA?</h1>
